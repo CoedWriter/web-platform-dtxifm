@@ -1,0 +1,245 @@
+$redclr: #e44242;
+$grnaquaclr: rgb(42, 223, 163);
+$whiteclr: #ffffff;
+$yellowclr: rgb(243, 243, 12);
+$dylwclr: rgb(232, 232, 9);
+$green: rgb(163, 70, 240);
+$prpl: rgb(182, 110, 242);
+$arialfont: Arial, Helvetica, sans-serif;
+
+// $inputsize: 20px;
+$inputpadding: 10px;
+$inputwidth: 275px;
+
+// rgb(85, 253, 197)
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        background-color: $grnaquaclr;
+        height: 10vh;
+        align-items: center;
+
+
+
+        li {
+            display: flex;
+            align-items: center;
+            height: 10vh;
+            padding: 20px;
+            margin: 0px;
+            list-style: none;
+
+            // background-color: $redclr;
+            :hover:not(.active a) {
+                color: $yellowclr;
+
+            }
+
+            &.active {
+                background-color: $yellowclr;
+            }
+
+
+            a {
+                text-decoration: none;
+                font-family: $arialfont;
+                font-size: large;
+                font-weight: bold;
+                color: $whiteclr;
+
+
+            }
+        }
+
+    }
+
+}
+
+.mainbox {
+    display: flex;
+    background-color: $green;
+
+    .navbar-1 {
+
+        background-color: $grnaquaclr;
+        width: 230px;
+        height: 93vh;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            :hover {
+                background-color: $yellowclr;
+
+            }
+
+
+            li {
+                display: flex;
+                padding: 20px;
+                margin: 0;
+                list-style: none;
+                background-color: $grnaquaclr;
+                width: 230px;
+                justify-content: center;
+                align-items: center;
+                height: 150px;
+
+
+
+
+                a {
+                    text-decoration: none;
+                    font-family: $arialfont;
+                    font-weight: bold;
+                    font-size: 25px;
+                    color: $whiteclr;
+
+
+                }
+            }
+        }
+
+    }
+
+
+
+    .musk {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+
+
+        .form-container {
+            display: flex;
+
+            flex-direction: column;
+            flex: wrap column;
+            justify-content: center;
+
+            form {
+                height: max-content;
+                width: 350px;
+                padding: 20px;
+                border-radius: 15px;
+                background-color: $yellow;
+                box-shadow: 5px 10px 18px black;
+                color: rgb(0, 0, 0);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+                input {
+                    border-radius: 5px;
+                    border: 1px solid black;
+                }
+
+                .initial input {
+                    padding: 8px;
+                    width: 250px;
+                }
+
+
+
+                fieldset {
+                    // height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: baseline;
+                    background-color: $prpl;
+                    padding: 10px;
+                    border-radius: 8px;
+                    width: max-content;
+
+                    input {
+                        padding: 8px;
+                        width: 250px;
+                    }
+                }
+
+                label {
+                    font: 16px bold;
+
+                }
+
+                legend,
+                span {
+                    font: 15px bold;
+                }
+
+
+
+                .gender1 {
+
+                    margin-bottom: 10px;
+
+                    .gender2 {
+                        font-size: 17px;
+                        margin-bottom: 3px;
+                        margin-left: -23px;
+                    }
+
+                    .gender {
+
+                        input {
+                            padding: 8px;
+                            width: 15px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+
+                .bio1 {
+                    .bio {
+                        margin-left: -10px;
+                    }
+
+                    textarea {
+                        border-radius: 5px;
+                    }
+                }
+
+                button {
+                    width: 120px;
+                    height: 50px;
+                    color: $whiteclr;
+                    border-radius: 25px;
+                    background-color: $green;
+                    border-color: #000000;
+                    border: 0px;
+                    margin: 10px;
+                    margin-left: 21px;
+                    font-size: 14px;
+                    font-weight: bold;
+
+                }
+
+            }
+        }
+
+    }
+}

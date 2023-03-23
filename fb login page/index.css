@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 86.27%);
+}
+body .bg {
+  background: hsl(216, 8.77%, 88.82%);
+  width: 95%;
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 20px rgb(128, 128, 128);
+  border-radius: 4px;
+}
+body .bg .left_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+body .bg .left_content h1 {
+  font-size: 60px;
+  color: hsl(211.79, 98.43%, 50%);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+body .bg .left_content p {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+body .bg .formdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .bg .formdiv form {
+  text-align: center;
+  width: 470px;
+  height: 450px;
+  border: 1px solid hsl(216, 8.77%, 88.82%);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+body .bg .formdiv form .dabbe input {
+  padding: 19px;
+  margin: 15px;
+  width: 400px;
+  border-radius: 6px;
+  border: 1px solid hsl(216, 8.77%, 88.82%);
+  font-size: 20px;
+}
+body .bg .formdiv form .borderline {
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(216, 8.77%, 88.82%);
+}
+body .bg .formdiv form .borderline .loginb {
+  padding: 19px;
+  margin: 15px;
+  width: 400px;
+  background-color: hsl(211.79, 98.43%, 50%);
+  border: 0;
+  border-radius: 6px;
+}
+body .bg .formdiv form .borderline .loginb a {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+body .bg .formdiv a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(211.79, 98.43%, 50%);
+}
+body .bg .formdiv .signupb {
+  padding: 21px;
+  margin: 20px 0 10px 0;
+  width: 260px;
+  background-color: hsl(119.67, 100%, 35.49%);
+  border: 0;
+  border-radius: 6px;
+}
+body .bg .formdiv .signupb a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+}
+body .bg .formdiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    flex-direction: column;
+  }
+  .bg .left_content {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .bg .left_content p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .bg .formdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg .formdiv form {
+    text-align: center;
+    width: 470px;
+    height: 450px;
+    border: 1px solid hsl(216, 8.77%, 88.82%);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .bg .formdiv form .dabbe input {
+    padding: 19px;
+    margin: 15px;
+    width: 400px;
+    border-radius: 6px;
+    border: 1px solid hsl(216, 8.77%, 88.82%);
+    font-size: 20px;
+  }
+  .bg .formdiv form .borderline {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(216, 8.77%, 88.82%);
+  }
+  .bg .formdiv form .borderline .loginb {
+    padding: 19px;
+    margin: 15px;
+    width: 400px;
+    background-color: hsl(211.79, 98.43%, 50%);
+    border: 0;
+    border-radius: 6px;
+  }
+  .bg .formdiv form .borderline .loginb a {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .bg .formdiv a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(211.79, 98.43%, 50%);
+  }
+  .bg .formdiv .signupb {
+    padding: 21px;
+    margin: 20px 0 10px 0;
+    width: 260px;
+    background-color: hsl(119.67, 100%, 35.49%);
+    border: 0;
+    border-radius: 6px;
+  }
+  .bg .formdiv .signupb a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+  }
+  .bg .formdiv p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=index.css.map */
