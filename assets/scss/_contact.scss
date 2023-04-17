@@ -1,0 +1,88 @@
+.contact-main {
+    .contact-page-top {
+        h3 {
+            font-size: 35px;
+            span {
+                border-bottom: 2px solid #34b7a7;
+            }
+        }
+    }
+
+    .contact-details {
+        // width: max-content;
+        .details-self-main {
+            
+            .contact-details-sub {
+                position: relative;
+
+                i {
+                    position: absolute;
+                    font-size: 20px;
+                    color: #34b7a7;
+                }
+            }  
+        }
+        // .details-user-main {
+        //     @media screen and (max-width: 993px) {
+        //         width: -webkit-fill-available;
+        //     }
+        // }
+
+        // .details-user-main {
+        //     @media screen and (max-width: 993px) {
+        //         width: 100%;
+        //     }
+        // }
+        .details-user {
+            // width: -webkit-fill-available;
+            form {
+                // text-align: center;
+
+                .name-mail input {
+                    
+                    @media screen and (max-width: 993px) {
+                        width: -webkit-fill-available;
+                    }
+                }
+                input {
+                    border: 1px solid rgba(226, 224, 224, 0.748);
+                    padding: 10px;
+                    margin: 20px;
+                    font-size: 15px;
+                
+                    // width: max-content;
+                }
+                #textarea {
+                    border: 1px solid black;
+                    padding: 10px;
+                    margin: 20px;
+                    font-size: 15px;
+                }
+
+                button:hover {
+                    background-color: #6fc8bd;
+                    transition: 0.3s;
+                }
+                button {
+                    background-color: #34b7a7;
+                    border: none;
+                    color: white;
+                    width: fit-content;
+                    padding: 10px 28px;
+                    border-radius: 50px;
+                    margin: 0 0 10px 0;                   
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    width: -webkit-fill-available;
+}
+
+// @include media-breakpoint-up(lg) {
+//     .details-user-main {
+//         width: 100%;
+//     }
+// }

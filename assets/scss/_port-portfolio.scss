@@ -1,0 +1,27 @@
+.main-portfolio {
+    .portfolio-top {
+        h3 {
+            font-size: 30px;
+            color: #444444;
+            font-weight: 400;
+            span {
+                padding-bottom: 5px;
+                border-bottom: 2px solid #34b7a7;
+            }
+        }
+
+
+    }
+    .portfolio-photos-main {
+        .portfolio-photos {
+            // img {
+            //     max-width: 416px;
+            //     margin: 20px;
+            // }
+            .flex-column {
+                max-width: 200px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(251, 251, 251);
+}
+.main-div {
+
+    h3 {
+        font-size: 35px;
+        span {
+            border-bottom: 2px solid #34b7a7;
+        }
+    }
+
+    .div-services-main {
+        
+        .div-services {
+            box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+            max-width: 328px;
+            height: 300px;
+            text-align: center;
+            background-color: rgb(251, 251, 251);
+            margin: 10px;
+        }
+
+        .div-services-icon {
+            font-size: 30px;
+            position: relative;
+            :hover {
+                color: #47aeff;
+                // background-color: #47aeff;
+            }
+            
+            i {
+                width: 50px;
+                height: 50px;
+                color: #47aeff;
+                position: absolute;
+                left: 42%;
+                top: 34px;
+
+            }
+            svg {
+                position: absolute;
+                left: 35%;
+                // top:0%;
+            }
+
+            
+            
+        }
+        .text{
+            margin-top: 120px;
+            
+        }
+    }
+}
+// .div-services-icon:hover {
+
+//     i {
+//         color: white;
+//         // background-color: white;
+//     }
+//     svg {
+//         fill: #47aeff;
+//     }
+// }
+
+svg:hover {
+    // color: #34b7a7;
+    // background-color: #34b7a7;
+    fill: #34b7a7;
+}
